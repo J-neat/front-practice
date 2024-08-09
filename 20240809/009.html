@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div:not([class = "parent"]){
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            opacity: 0.7;
+        }
+
+        .absolute{
+            background-color: antiquewhite !important;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .parent{
+            position: relative;
+            margin: 50px;
+        }
+
+        .fixed{
+            position: fixed;
+            top: 30px;
+            right: 30px;
+        }
+
+        .sticky{
+            position: sticky;
+            top: 10px;
+            left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="static">static</div>
+        <div class="static">static</div>
+        <div class="static">static</div>
+        <div class="static">static</div>
+        <div class="static">static</div>
+        <div class="absolute">absolute</div>
+        <div class="fixed">fixed</div>
+    </div>
+
+    <div class="absolute">absolute</div>
+    <div class="sticky">sticky</div>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium temporibus unde architecto quidem cumque, molestias, assumenda placeat quos eius quod velit tenetur voluptatem. Ut delectus maiores eligendi quia ex labore?
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure eligendi similique esse, illum odit deserunt aperiam nisi voluptatem facere molestiae officia voluptates. Nostrum voluptates obcaecati ut? Quaerat veniam officia possimus!
+    Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aliquam, quae provident saepe, in veniam similique sequi deserunt omnis aperiam cumque inventore laborum eligendi tenetur libero quam ipsum maiores? Minima.
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis id dicta, asperiores similique nisi, ullam, amet expedita numquam commodi exercitationem est nostrum. Neque repudiandae rerum non! Quisquam ut quod ea.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit eum error fuga quos, quam iste tempora, maxime explicabo illum quibusdam, adipisci cupiditate aut ratione rerum asperiores deserunt inventore at obcaecati?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ex tempore aliquam vel doloremque illum fuga, repellendus cupiditate possimus reiciendis unde totam provident ipsa laudantium molestiae. Fuga, quod illum. A.
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis praesentium harum enim dicta exercitationem laborum, expedita provident distinctio amet hic labore vero facere fugit quasi quibusdam minima nihil architecto. Id?
+    sit, amet consectetur adipisicing elit. Repudiandae ullam eum deserunt dolores porro atque officiis asperiores dolore. Vitae omnis nobis harum, amet aliquam quam eum ipsum nisi quod tempora.
+</body>
+</html>
