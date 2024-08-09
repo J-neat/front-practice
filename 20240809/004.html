@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* p태그는 블록레벨 요소 전체 너비를 차지, 줄 바꿈 */
+        p{
+            background-color: aqua;
+            display: inline;
+        }
+
+        /* span은 인라인레벨 요소 */
+        span {
+            background-color: blueviolet;
+            display: block;
+            /* 인라인 레벨 요소는 width, height, 상하
+            margin이 적용되지 않는다. */
+            width: 300px;
+            height: 100px;
+            margin: 30px;
+        }
+
+        em {
+            background-color: coral;
+            width: 100px;
+            /* 줄바꿈은 일어나지 않고,  width, height, 상하
+            margin이 모두 적용가능 */
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <p>p</p>
+    <p>p</p>
+    <p>p</p>
+    <p>p</p>
+    <span>span</span><span>span</span><span>span</span><span>span</span>
+    <em>em</em><em>em</em><em>em</em><em>em</em>
+</body>
+</html>
