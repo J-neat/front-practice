@@ -38,8 +38,21 @@
         let s6 = 'image.jpeg';
         let s7 = 'imagehello.jpeg';
 
-        console.log(s6.slice(6));
-        console.log(s7.slice(11));
+        console.log(s6.slice(6, 11));
+        console.log(s7.slice(11, 16));
+        console.log(s6.slice(-4));
+        console.log(s7.slice(-4));
+
+        // 이번에는 위 string에서 파일명을 출력하세요.
+        console.log(s6.slice(0, -5));
+        console.log(s7.slice(0, -5));
+
+        // 이번에는 아레 string에서 파일명을 출력하세요.
+        let s8 = 'imagehello.jpeg'
+        let s9 = 'image.png'
+
+        console.log(s8.slice(0, s8.indexOf('.')));
+        console.log(s8.slice(0, s9.indexOf('.')));
 
     </script>
 </body>
