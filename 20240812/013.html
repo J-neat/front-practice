@@ -16,7 +16,31 @@
         
         // 2. replace: 문자열 대체
         let s2 = 'weniv CEO licat';
-        cosnole.log(s2.replace('licat', 'mura'));
+        console.log(s2.replace('licat', 'mura'));
+
+        // 메서드 체이닝(replace)
+        let s3 = 'weniv CEO licat';
+        console.log(s3.replace('licat', 'mura').replace('CEO', 'CTO'));
+
+        // 3. slice: 문자열 자르기
+        let s4 = 'hello world';
+        console.log(s3.slice(0, 3)); // 0 부터 2까지 잘라낸다
+        console.log(s3.slice(2));
+
+        // 마이너스 슬라이싱은 음수 값이 양수로 변환돼서
+        // 작동됩니다.
+        let s5 = 'licat.png';
+        console.log(s5.slice(0, -4)); // 0부터 5까지로 동작됨
+        console.log(s5.slice(-4));
+        console.log(s5.slice(-4));
+        
+        // 다음 자료형에서 jpeg를 뽑아내는 코드를 작성해주세요.
+        let s6 = 'image.jpeg';
+        let s7 = 'imagehello.jpeg';
+
+        console.log(s6.slice(6));
+        console.log(s7.slice(11));
+
     </script>
 </body>
 </html>
