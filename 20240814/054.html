@@ -36,7 +36,8 @@
 
     btnFirst.addEventListener('click', (event) => {
     console.log('btn bubble!');
-    event.preventDefault();
+    // event.preventDefault(); // 브라우저의 기본동작을 막습니다.
+    event.stopPropagation();// 이벤트 전파를 막습니다.
     });
 
     parent.addEventListener('click', () => {
