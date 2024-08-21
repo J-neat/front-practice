@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        li {
+            list-style: none; /*동그라미 없애는 것*/
+        }
+
+        header {
+            background-color: #F2E9D8;
+            width: 100%;
+        }
+
+        body {
+            width: 100%;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px 150px;
+        }
+
+        nav>ul{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .download-btn{
+            background-color: #D97652;
+            padding: 10px;
+            border-radius: 30px;
+            width: 100px;
+            color: white;
+            text-align: center;
+        }
+
+        .header-content{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            align-items: center;
+            padding: 0 150px;
+        }
+
+        .header-content>img{
+            width: 400px;
+        }
+
+        .header-content>div{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#"><img src="../FE/Logo-fin.png" alt=""></a>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Support</a></li>
+                <li><a href="" class="download-btn">Download</a></li>
+            </ul>
+        </nav>
+        <div class="header-content">
+            <div>
+                <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus sapiente accusamus autem natus exercitationem quasi eum debitis, similique laudantium delectus dolore a velit fuga praesentium molestias ullam esse, corrupti cumque.</p>
+                <a href="" class="download-btn">Download</a>
+            </div>
+            <img src="../FE/고양이 1.png" alt="">
+        </div>
+    </header>
+
+
+    <div>
+        
+    </div>
+    <footer>
+        
+    </footer>
+</body>
+</html>
